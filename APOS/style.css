@@ -1,0 +1,186 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  overflow-x: hidden;
+}
+
+.container {
+  display: flex;
+}
+
+.container-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  width: 15vw;
+  height: 100vh;
+  background-color: #0014ff;
+}
+
+nav ul {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 30px 0;
+}
+
+nav ul li a {
+  color: #f7f7f7;
+  text-decoration: none;
+}
+
+.table {
+  margin-top: 5vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.kotak {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 3vw;
+  width: 200px;
+  height: 100px;
+  background-color: #0081c9;
+  color: #f7f7f7;
+}
+
+.tambah {
+  color: #f7f7f7;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0081c9;
+  height: 35px;
+  width: 150px;
+  border-radius: 3px;
+  margin: 20px;
+}
+
+table {
+  width: 70vw;
+  height: 60vh;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 5px;
+  margin-left: 80px;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #0081c9;
+  color: white;
+  height: 30px;
+}
+
+tr {
+  height: 6vh;
+}
+
+tr:nth-child(even) {
+  background-color: #0015ff27;
+}
+
+.btn-update {
+  border: none;
+  background: transparent;
+}
+
+.btn-update a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.btn-delete a {
+  text-decoration: none;
+  color: #da1212;
+  font-weight: 600;
+}
+
+.btn-delete {
+  border: none;
+  background: transparent;
+}
+
+.print {
+  display: flex;
+  gap: 10vw;
+  margin-bottom: 5vh;
+}
+
+#kelas,
+.drop {
+  height: 4vh;
+}
+
+#nis {
+  height: 3vh;
+}
+
+.buat {
+  border: none;
+  background-color: #0014ff;
+  color: #fff;
+  height: 4vh;
+}
+
+.rubah {
+  height: 5vh;
+  background-color: yellow;
+  border-radius: 5px;
+}
+
+.hapus {
+  height: 5vh;
+  background-color: red;
+  border-radius: 5px;
+}
+
+.keluar {
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: red;
+}
+
+.kelas,
+.siswa {
+  margin-top: 50px;
+}
+
+.pagination a {
+  background-color: #0014ff;
+  padding: 5px;
+  border-radius: 3px;
+  text-align: center;
+  color: #fff;
+  list-style: none;
+  text-decoration: none;
+}
+
+.pagination {
+  margin-top: 50px;
+}
+
+.actives {
+  background-color: #fff;
+  color: #0014ff;
+  padding: 10px;
+  border-radius: 5px;
+}

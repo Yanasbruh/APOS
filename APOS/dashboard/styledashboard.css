@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  overflow-x: hidden;
+}
+
+.container {
+  display: flex;
+}
+
+.container-1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  width: 15vw;
+  height: 100vh;
+  background-color: #0014ff;
+}
+
+nav ul {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 30px 0;
+}
+
+nav ul li a {
+  color: #f7f7f7;
+  text-decoration: none;
+}
+
+.table {
+  margin-top: 5vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.kotak {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 3vw;
+  width: 150px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: #0081c9;
+  color: #f7f7f7;
+}
+
+.welcomeword {
+  font-size: 1.2rem;
+  margin-left: 5vw;
+  display: flex;
+  gap: 5px;
+}
+
+.sapa {
+  color: #0081c9;
+}
+
+.kotak p {
+  margin: -10px 0;
+}
+
+table {
+  width: 70vw;
+  height: 50vh;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 5px;
+  margin-left: 80px;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #0081c9;
+  color: white;
+  height: 30px;
+}
+
+tr {
+  height: 6vh;
+}
+
+tr:nth-child(even) {
+  background-color: #0015ff27;
+}
+
+.keluar {
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: red;
+}
+
+.active {
+  background-color: #f7f7f7;
+  color: #0014ff;
+  position: absolute;
+  border-radius: 20px;
+  left: 40px;
+  top: 50px;
+  padding: 15px 100px 15px 10px;
+}
